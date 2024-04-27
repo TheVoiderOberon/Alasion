@@ -109,7 +109,7 @@ weapons:[{
     ejectEffect: casing3
     bullet:{
         type: RailBulletType
-        damage: 300
+        damage: 180
         pierce: true
         recoil: 1.5
         length: 300
