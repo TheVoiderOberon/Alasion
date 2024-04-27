@@ -29,7 +29,7 @@ weapons:[{
     ejectEffect: casing2
     bullet:{
         type: LaserBulletType
-        damage: 30
+        damage: 40
         pierce: true
         recoil: 0
         length: 240
@@ -59,7 +59,7 @@ weapons:[{
     ejectEffect: casing1
     bullet:{
         type: BasicBulletType
-        damage: 12
+        damage: 16
         recoil: 0
         height: 9
         width: 9
@@ -84,7 +84,7 @@ weapons:[{
     ejectEffect: casing1
     bullet:{
         type: BasicBulletType
-        damage: 12
+        damage: 16
         recoil: 0
         height: 9
         width: 9
