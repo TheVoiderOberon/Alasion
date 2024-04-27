@@ -97,7 +97,7 @@ weapons:[{
     reload: 60
     x: 17
     y: 0
-    shootY: 1.5
+    shootY: 5
     shootCone: 30
     inaccuracy: 0
     shootSound: railgun
