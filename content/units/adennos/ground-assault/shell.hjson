@@ -70,8 +70,8 @@ weapons:[{
     {
     name: shell-pelletgun
     reload: 12
-    x: 4
-    y: 5
+    x: 7
+    y: 2
     shootY: 0.7
     shootCone: 30
     shootSound: pew
@@ -94,21 +94,21 @@ weapons:[{
 }
 {
     name: shell-railgun
-    reload: 25
-    x: 12
-    y: -3
+    reload: 60
+    x: 15
+    y: 0
     shootY: 1.5
     shootCone: 30
     inaccuracy: 0
-    shootSound: laser
+    shootSound: railgun
     rotate: false
-    recoil: 4
+    recoil: 6
     shake: 2
     top: false
     ejectEffect: casing3
     bullet:{
         type: RailgunBulletType
-        damage: 200
+        damage: 300
         pierce: true
         recoil: 1.5
         length: 300
