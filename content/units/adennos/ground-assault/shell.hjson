@@ -54,6 +54,7 @@ weapons:[{
     recoil: 0.8
     top: true
     mirror: true
+rotate: true
     alternate: true
     inaccuracy: 8
     ejectEffect: casing1
@@ -75,6 +76,7 @@ weapons:[{
     shootY: 0.7
     shootCone: 30
     shootSound: pew
+rotate: true
     rotate: false
     recoil: 0.8
     top: true
