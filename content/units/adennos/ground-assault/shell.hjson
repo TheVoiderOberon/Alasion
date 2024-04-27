@@ -1,0 +1,127 @@
+type: mech
+name: "Shell"
+description: "Fires powerful lasers and barrages of other projectiles from its side weapons.."
+health: 8400
+speed: 0.3
+flying: false
+drag: 0.3
+accel: 0.3
+range: 136
+hitSize: 15
+mechFrontSway: 1.8
+mechSideSway: 2.0
+targetGround: true
+targetAir: true 
+armor: 9
+rotateSpeed: 2.7
+weapons:[{
+    name: shell-lasergun
+    reload: 25
+    x: 5
+    y: -3
+    shootY: 1.5
+    shootCone: 30
+    inaccuracy: 0
+    shootSound: laser
+    rotate: true
+    recoil: 1
+    top: true
+    ejectEffect: casing2
+    bullet:{
+        type: LaserBulletType
+        damage: 30
+        pierce: true
+        recoil: 0
+        length: 240
+        width: 8
+        sideWidth: 1
+        sideAngle: 60
+        pierceBuilding: true
+        colors: [ff9c5aff, ec7458aaff, ffffffff]
+        speed: 0.01
+        lifetime: 8
+    }
+    }
+    {
+    name: shell-pelletgun
+    reload: 12
+    x: 2
+    y: 7
+    shootY: 0.7
+    shootCone: 30
+    shootSound: pew
+    rotate: false
+    recoil: 0.8
+    top: true
+    mirror: true
+    alternate: true
+    inaccuracy: 8
+    ejectEffect: casing1
+    bullet:{
+        type: BasicBulletType
+        damage: 12
+        recoil: 0
+        height: 9
+        width: 9
+        speed: 6
+        lifetime: 50
+    }
+}
+    {
+    name: shell-pelletgun
+    reload: 12
+    x: 4
+    y: 5
+    shootY: 0.7
+    shootCone: 30
+    shootSound: pew
+    rotate: false
+    recoil: 0.8
+    top: true
+    mirror: true
+    alternate: true
+    inaccuracy: 8
+    ejectEffect: casing1
+    bullet:{
+        type: BasicBulletType
+        damage: 12
+        recoil: 0
+        height: 9
+        width: 9
+        speed: 6
+        lifetime: 50
+    }
+}
+{
+    name: shell-railgun
+    reload: 25
+    x: 12
+    y: -3
+    shootY: 1.5
+    shootCone: 30
+    inaccuracy: 0
+    shootSound: laser
+    rotate: false
+    recoil: 4
+    shake: 2
+    top: false
+    ejectEffect: casing3
+    bullet:{
+        type: RailgunBulletType
+        damage: 200
+        pierce: true
+        recoil: 1.5
+        length: 300
+        width: 8
+        pointEffectSpace: 50
+        pierceDamageFactor: 0.4
+        pierceBuilding: true
+        pierceEffect: railHit
+        pointEffect: railTrail
+        hitEffect: massiveExplosion
+        smokeEffect: shootBig2
+        speed: 0.01
+        lifetime: 14
+    }
+    }
+]
