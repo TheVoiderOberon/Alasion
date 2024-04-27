@@ -107,12 +107,11 @@ weapons:[{
     top: false
     ejectEffect: casing3
     bullet:{
-        type: RailgunBulletType
+        type: RailBulletType
         damage: 300
         pierce: true
         recoil: 1.5
         length: 300
-        width: 8
         pointEffectSpace: 50
         pierceDamageFactor: 0.4
         pierceBuilding: true
