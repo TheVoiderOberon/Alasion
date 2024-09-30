@@ -1,0 +1,10 @@
+type: mech
+name: Size Test
+description: Help me DUDE! HELP     HELPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP AAAAAAAAAAAAAAAAAAAAAAA
+speed: 0.1
+hitSize: 42
+rotateSpeed: 2
+health: 43243243
+armor: 99999999
+mechFrontSway: 4.4
+mechSideSway: 2.55
