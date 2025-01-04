@@ -47,7 +47,7 @@ Events.on(ContentInitEvent, () => {
     //font.getData().setGlyphRegion(glyph, tex);
   }
 
-  const Frost = Team.get(4);
+  const Frost = Team.get(5);
   Frost.name = "Frost";
   //Dread.color.set(Color.valueOf("87ceeb"));
   Reflect.set(Team, Frost, "color", baseColor);
