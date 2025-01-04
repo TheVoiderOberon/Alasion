@@ -9,7 +9,9 @@ requirements:[
 category: effect
 healPercent: 3
 range: 80
-
+consumes: {
+  power: 2
+}
 research: {
    parent: combuster
    objectives: [
