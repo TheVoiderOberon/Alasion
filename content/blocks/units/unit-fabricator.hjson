@@ -7,7 +7,7 @@ consumes: {
 }
 plans: [
   {
-    unit: pellet
+    unit: adennos-ground-assault-1
     time: 1000
     requirements: [
       silicon/10
@@ -15,7 +15,7 @@ plans: [
     ]
   }
   {
-    unit: dart
+    unit: adennos-air-assault-1
     time: 900
     requirements: [
       silicon/8
