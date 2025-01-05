@@ -1,4 +1,3 @@
-console.log("launched")
 const target = "assemblyDrone";
 const baseColor = Color.valueOf("a7b5f7");
 let palette = [
