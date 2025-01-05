@@ -1,0 +1,7 @@
+accessible: false
+localizedName: "Alfirk"
+mesh: {
+  type: HexSkyMesh
+  color: F00
+  thresh: 0.1
+}

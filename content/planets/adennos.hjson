@@ -111,8 +111,8 @@ startSector: 1
 allowWaves: true
 prebuildBase: false
 defaultCore: iron-core
-parent: sun
-solarSystem: sun
+parent: alfirk
+solarSystem: alfirk
 launchCandidates: []
 itemWhitelist: [
   "magnetite",
@@ -121,7 +121,7 @@ itemWhitelist: [
 ]
 
 #the parent of the whole solar system the planet is in
-solarSystem: sun
+solarSystem: alfirk
 
 #possible planets that could be landed into from this planet. probably useless since interplanetary accelerator is still not working
 launchCandidates: []
