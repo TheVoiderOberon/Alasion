@@ -46,7 +46,7 @@ Events.on(ContentInitEvent, () => {
     //font.getData().setGlyphRegion(glyph, tex1);
   }
 
-  const Nebulon = Team.get(2);
+  const Nebulon = Team.get(7);
     Nebulon.name = "Nebulon";
   //Dread.color.set(Color.valueOf("87ceeb"));
     Reflect.set(Team, Nebulon, "color", baseColor);
