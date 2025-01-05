@@ -1,8 +1,6 @@
 localizedName: Adennos
 alwaysUnlocked: true
-solarSystem: alfirk
 parent: alfirk
-lightParent: alfirk
 mesh: [
  {
     //snow
