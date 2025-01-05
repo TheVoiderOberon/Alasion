@@ -1,4 +1,4 @@
 Events.on(ContentInitEvent, () => {
-    require("scriptsfrost.js")
+    require("scripts/frost.js")
     require("scripts/nebulon.js")
 })
