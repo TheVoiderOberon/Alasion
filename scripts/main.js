@@ -1,2 +1,2 @@
-require(frost.js)
-require(nebulon.js)
+require(scripts/frost)
+require(scripts/nebulon)
