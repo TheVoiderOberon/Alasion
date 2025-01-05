@@ -30,7 +30,7 @@ Events.on(ContentInitEvent, () => {
   let size = Mathf.round(Fonts.def.getData().lineHeight / Fonts.def.getData().scaleY);
     let tex1 = Core.atlas.find("mindustry-alasion-frost");
     let tex2 = Core.atlas.find("mindustry-alasion-nebulon");
-  let out = Scaling.fit.apply(tex.width, tex.height, size, size);
+  let out = Scaling.fit.apply(tex1.width, tex1.height, size, size);
 
   for(let font of fonts){
     let list = Reflect.get(Font, font, "regions");
@@ -46,10 +46,10 @@ Events.on(ContentInitEvent, () => {
 //    glyph.height = out.y;
     glyph.width = 62
     glyph.height = 62
-    glyph.u = tex.u;
-    glyph.v = tex.v2;
-    glyph.u2 = tex.u2;
-    glyph.v2 = tex.v;
+    glyph.u = tex1.u;
+    glyph.v = tex1.v2;
+    glyph.u2 = tex1.u2;
+    glyph.v2 = tex1.v;
     glyph.xoffset = 0;
     glyph.yoffset = -size;
     glyph.xadvance = size;
