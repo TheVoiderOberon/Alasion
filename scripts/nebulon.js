@@ -1,35 +1,22 @@
 const target = "assemblyDrone";
 const baseColor = Color.valueOf("a7b5f7");
 let palette = [
-Color.valueOf("707cd7"),
-baseColor,
-Color.valueOf("373f8a")
-];
-let palettei = [
-Color.valueOf("707cd7").rgba(),
-baseColor.rgba(),
-Color.valueOf("373f8a").rgba()
-];
-let palette2 = [
     Color.valueOf("291073"),
-    baseColor,
+baseColor,
     Color.valueOf("291073")
 ];
-let palettei2 = [
+let palettei = [
     Color.valueOf("291073").rgba(),
-    baseColor.rgba(),
+baseColor.rgba(),
     Color.valueOf("291073").rgba()
 ];
-
-
 Events.on(ContentInitEvent, () => {
 
   let fonts = [Fonts.def, Fonts.outline];
   let ch = Fonts.getUnicode(target);
 
   let size = Mathf.round(Fonts.def.getData().lineHeight / Fonts.def.getData().scaleY);
-    let tex1 = Core.atlas.find("mindustry-alasion-frost");
-    let tex2 = Core.atlas.find("mindustry-alasion-nebulon");
+    let tex1 = Core.atlas.find("mindustry-alasion-nebulon");
   let out = Scaling.fit.apply(tex1.width, tex1.height, size, size);
 
   for(let font of fonts){
@@ -59,38 +46,20 @@ Events.on(ContentInitEvent, () => {
     //font.getData().setGlyphRegion(glyph, tex1);
   }
 
-  const Frost = Team.get(6);
-  Frost.name = "Frost";
+  const Nebulon = Team.get(7);
+    Nebulon.name = "Nebulon";
   //Dread.color.set(Color.valueOf("87ceeb"));
-  Reflect.set(Team, Frost, "color", baseColor);
+    Reflect.set(Team, Nebulon, "color", baseColor);
 
-  let newPal = Reflect.get(Team, Frost, "palette");
+    let newPal = Reflect.get(Team, Nebulon, "palette");
   newPal[0] = palette[0];
   newPal[1] = palette[1];
   newPal[2] = palette[2];
-  Reflect.set(Team, Frost, "palette", newPal);
-  let newI = Reflect.get(Team, Frost, "palettei");
+    Reflect.set(Team, Nebulon, "palette", newPal);
+    let newI = Reflect.get(Team, Nebulon, "palettei");
   newI[0] = palettei[0];
   newI[1] = palettei[1];
   newI[2] = palettei[2];
-  Reflect.set(Team, Frost, "palettei", newI);
-
-  Frost.hasPalette = true;
-    Frost.emoji = Fonts.getUnicodeStr(target);
-    const Nebulon = Team.get(7);
-    Nebulon.name = "Nebulon";
-    //Dread.color.set(Color.valueOf("87ceeb"));
-    Reflect.set(Team, Nebulon, "color", baseColor);
-
-    let newPal2 = Reflect.get(Team, Nebulon, "palette");
-    newPal2[0] = palette2[0];
-    newPal2[1] = palette2[1];
-    newPal2[2] = palette2[2];
-    Reflect.set(Team, Nebulon, "palette", newPal);
-    let newI2 = Reflect.get(Team, Frost, "palettei");
-    newI2[0] = palettei2[0];
-    newI2[1] = palettei2[1];
-    newI2[2] = palettei2[2];
     Reflect.set(Team, Nebulon, "palettei", newI);
 
     Nebulon.hasPalette = true;
