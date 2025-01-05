@@ -2,12 +2,12 @@ const target = "assemblyDrone";
 const baseColor1 = Color.valueOf("a7b5f7");
 let palette = [
     Color.valueOf("707cd7"),
-    baseColor,
+    baseColor1,
     Color.valueOf("373f8a")
 ];
 let palettei = [
     Color.valueOf("707cd7").rgba(),
-    baseColor.rgba(),
+    baseColor1.rgba(),
     Color.valueOf("373f8a").rgba()
 ];
 Events.on(ContentInitEvent, () => {
@@ -68,12 +68,12 @@ Events.on(ContentInitEvent, () => {
 const baseColor2 = Color.valueOf("230f60");
 let palette2 = [
     Color.valueOf("11072d"),
-    baseColor,
+    baseColor2,
     Color.valueOf("3f219a")
 ];
 let palettei2 = [
     Color.valueOf("11072d").rgba(),
-    baseColor.rgba(),
+    baseColor2.rgba(),
     Color.valueOf("3f219a").rgba()
 ];
 Events.on(ContentInitEvent, () => {
