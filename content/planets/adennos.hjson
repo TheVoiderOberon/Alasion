@@ -121,6 +121,7 @@ itemWhitelist: [
 ]
 
 #the parent of the whole solar system the planet is in
+solarSystem: alfirk
 
 #possible planets that could be landed into from this planet. probably useless since interplanetary accelerator is still not working
 launchCandidates: []
