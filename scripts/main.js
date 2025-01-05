@@ -82,16 +82,16 @@ Events.on(ContentInitEvent, () => {
     //Dread.color.set(Color.valueOf("87ceeb"));
     Reflect.set(Team, Nebulon, "color", baseColor);
 
-    let newPal2 = Reflect.get(Team, Nebulon, "palette2");
+    let newPal2 = Reflect.get(Team, Nebulon, "palette");
     newPal2[0] = palette2[0];
     newPal2[1] = palette2[1];
     newPal2[2] = palette2[2];
-    Reflect.set(Team, Nebulon, "palette2", newPal);
-    let newI2 = Reflect.get(Team, Frost, "palettei2");
+    Reflect.set(Team, Nebulon, "palette", newPal);
+    let newI2 = Reflect.get(Team, Frost, "palettei");
     newI2[0] = palettei2[0];
     newI2[1] = palettei2[1];
     newI2[2] = palettei2[2];
-    Reflect.set(Team, Nebulon, "palettei2", newI);
+    Reflect.set(Team, Nebulon, "palettei", newI);
 
     Nebulon.hasPalette = true;
     Nebulon.emoji = Fonts.getUnicodeStr(target);
