@@ -1,3 +1,4 @@
+console.log("launched")
 const target = "assemblyDrone";
 const baseColor = Color.valueOf("a7b5f7");
 let palette = [
@@ -16,12 +17,12 @@ Events.on(ContentInitEvent, () => {
   let ch = Fonts.getUnicode(target);
 
   let size = Mathf.round(Fonts.def.getData().lineHeight / Fonts.def.getData().scaleY);
-    let tex1 = Core.atlas.find("mindustry-alasion-frost");
-  let out = Scaling.fit.apply(tex1.width, tex1.height, size, size);
+    let tex = Core.atlas.find("mindustry-alasion-frost");
+  let out = Scaling.fit.apply(tex.width, tex.height, size, size);
 
   for(let font of fonts){
     let list = Reflect.get(Font, font, "regions");
-    list.add(tex1);
+    list.add(tex);
     Reflect.set(Font, font, "regions", list);
 
     let glyph = font.getData().getGlyph(ch);
@@ -33,10 +34,10 @@ Events.on(ContentInitEvent, () => {
 //    glyph.height = out.y;
     glyph.width = 62
     glyph.height = 62
-    glyph.u = tex1.u;
-    glyph.v = tex1.v2;
-    glyph.u2 = tex1.u2;
-    glyph.v2 = tex1.v;
+    glyph.u = tex.u;
+    glyph.v = tex.v2;
+    glyph.u2 = tex.u2;
+    glyph.v2 = tex.v;
     glyph.xoffset = 0;
     glyph.yoffset = -size;
     glyph.xadvance = size;
