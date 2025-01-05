@@ -49,7 +49,7 @@ Events.on(ContentInitEvent, () => {
     const Frost = Team.get(6);
     Frost.name = "Frost";
     //Dread.color.set(Color.valueOf("87ceeb"));
-    Reflect.set(Team, Frost, "color", baseColor);
+    Reflect.set(Team, Frost, "color", baseColor1);
 
     let newPal = Reflect.get(Team, Frost, "palette");
     newPal[0] = palette[0];
@@ -115,7 +115,7 @@ Events.on(ContentInitEvent, () => {
     const Nebulon = Team.get(7);
     Nebulon.name = "Nebulon";
     //Dread.color.set(Color.valueOf("87ceeb"));
-    Reflect.set(Team, Nebulon, "color", baseColor);
+    Reflect.set(Team, Nebulon, "color", baseColor2);
 
     let newPal = Reflect.get(Team, Nebulon, "palette");
     newPal[0] = palette2[0];
