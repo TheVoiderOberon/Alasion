@@ -1,5 +1,6 @@
 localizedName: Adennos
 alwaysUnlocked: true
+solarSystem: alfirk
 mesh: [
  {
     //snow
@@ -97,7 +98,7 @@ drawOrbit: true
 atmosphereRadIn: 0
 atmosphereRadOut: 0.6
 accessible: true
-orbitRadius: 180
+orbitRadius: 1800
 updateLighting: true
 sectorSeed: 14513
 bloom: true
@@ -121,7 +122,6 @@ itemWhitelist: [
 ]
 
 #the parent of the whole solar system the planet is in
-solarSystem: alfirk
 
 #possible planets that could be landed into from this planet. probably useless since interplanetary accelerator is still not working
 launchCandidates: []
