@@ -1,6 +1,8 @@
 localizedName: Adennos
 alwaysUnlocked: true
 solarSystem: alfirk
+parent: alfirk
+lightParent: alfirk
 mesh: [
  {
     //snow
@@ -112,8 +114,6 @@ startSector: 1
 allowWaves: true
 prebuildBase: false
 defaultCore: iron-core
-parent: alfirk
-lightParent: alfirk
 launchCandidates: []
 itemWhitelist: [
   "magnetite",
