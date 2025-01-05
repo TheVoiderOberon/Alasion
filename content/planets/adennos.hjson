@@ -88,7 +88,7 @@ generator: {
 sectorSize: 3
 allowLaunchSchematics: true
 allowLaunchToNumbered: false
-allowLaunchLoadout: false
+allowLaunchLoadout: true
 allowSectorInvasion: true
 orbitSpacing: 3
 radius: 1.5
@@ -107,6 +107,7 @@ iconColor: ffffff
 hasAtmosphere: true
 allowWaveSimulation: true
 clearSectorOnLose: true
+startSector: 1
 allowWaves: true
 prebuildBase: false
 defaultCore: iron-core
