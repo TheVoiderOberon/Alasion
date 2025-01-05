@@ -1,4 +1,3 @@
-Events.on(ContentInitEvent, () => {
-    require("teams/frost.js")
-    require("teams/nebulon.js")
-})
+
+    require("teams/frost")
+    require("teams/nebulon")
