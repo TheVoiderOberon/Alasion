@@ -1,0 +1,21 @@
+radius: 7
+parent: alfirk
+orbitRadius: 9
+accessible: false
+lightParent: alfirk
+mesh: {
+  type: SunMesh 
+  divisions: 7
+  octaves: 4
+  persistence: 0.25
+  scl: 3
+  pow: 2
+  mag: 2
+  colorScale: 2
+  colors: [
+    f00,
+    CE0000,
+    A10B0B,
+    FF5353
+  ]
+}

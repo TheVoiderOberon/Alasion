@@ -112,6 +112,7 @@ allowWaves: true
 prebuildBase: false
 defaultCore: iron-core
 parent: alfirk
+lightParent: alfirk
 launchCandidates: []
 itemWhitelist: [
   "magnetite",
