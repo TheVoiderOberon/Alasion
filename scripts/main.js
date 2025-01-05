@@ -56,7 +56,7 @@ Events.on(ContentInitEvent, () => {
     glyph.kerning = null;
     glyph.fixedWidth = true;
 
-    //font.getData().setGlyphRegion(glyph, tex);
+    //font.getData().setGlyphRegion(glyph, tex1);
   }
 
   const Frost = Team.get(6);
