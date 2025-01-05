@@ -10,6 +10,17 @@ Color.valueOf("707cd7").rgba(),
 baseColor.rgba(),
 Color.valueOf("373f8a").rgba()
 ];
+let palette2 = [
+    Color.valueOf("291073"),
+    baseColor,
+    Color.valueOf("291073")
+];
+let palettei2 = [
+    Color.valueOf("291073").rgba(),
+    baseColor.rgba(),
+    Color.valueOf("291073").rgba()
+];
+
 
 Events.on(ContentInitEvent, () => {
 
@@ -17,12 +28,13 @@ Events.on(ContentInitEvent, () => {
   let ch = Fonts.getUnicode(target);
 
   let size = Mathf.round(Fonts.def.getData().lineHeight / Fonts.def.getData().scaleY);
-  let tex = Core.atlas.find("mindustry-alasion-frost");
+    let tex1 = Core.atlas.find("mindustry-alasion-frost");
+    let tex2 = Core.atlas.find("mindustry-alasion-nebulon");
   let out = Scaling.fit.apply(tex.width, tex.height, size, size);
 
   for(let font of fonts){
     let list = Reflect.get(Font, font, "regions");
-    list.add(tex);
+    list.add(tex1);
     Reflect.set(Font, font, "regions", list);
 
     let glyph = font.getData().getGlyph(ch);
@@ -47,7 +59,7 @@ Events.on(ContentInitEvent, () => {
     //font.getData().setGlyphRegion(glyph, tex);
   }
 
-  const Frost = Team.get(4);
+  const Frost = Team.get(6);
   Frost.name = "Frost";
   //Dread.color.set(Color.valueOf("87ceeb"));
   Reflect.set(Team, Frost, "color", baseColor);
@@ -64,5 +76,23 @@ Events.on(ContentInitEvent, () => {
   Reflect.set(Team, Frost, "palettei", newI);
 
   Frost.hasPalette = true;
-  Frost.emoji = Fonts.getUnicodeStr(target);
+    Frost.emoji = Fonts.getUnicodeStr(target);
+    const Nebulon = Team.get(7);
+    Nebulon.name = "Nebulon";
+    //Dread.color.set(Color.valueOf("87ceeb"));
+    Reflect.set(Team, Nebulon, "color", baseColor);
+
+    let newPal2 = Reflect.get(Team, Nebulon, "palette2");
+    newPal2[0] = palette2[0];
+    newPal2[1] = palette2[1];
+    newPal2[2] = palette2[2];
+    Reflect.set(Team, Nebulon, "palette2", newPal);
+    let newI2 = Reflect.get(Team, Frost, "palettei2");
+    newI2[0] = palettei2[0];
+    newI2[1] = palettei2[1];
+    newI2[2] = palettei2[2];
+    Reflect.set(Team, Nebulon, "palettei2", newI);
+
+    Nebulon.hasPalette = true;
+    Nebulon.emoji = Fonts.getUnicodeStr(target);
 });
