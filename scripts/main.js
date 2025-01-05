@@ -1,2 +1,4 @@
-require(scripts/frost)
-require(scripts/nebulon)
+Events.on(ContentInitEvent, () => {
+    require(scripts / frost)
+    require(scripts / nebulon)
+})
