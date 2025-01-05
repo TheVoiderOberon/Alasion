@@ -1,4 +1,4 @@
 Events.on(ContentInitEvent, () => {
-    require("frost")
-    require("nebulon")
+    require("mindustry-alasion-frost")
+    require("mindustry-alasion-nebulon")
 })
