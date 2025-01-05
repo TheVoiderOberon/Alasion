@@ -3,6 +3,8 @@
 
 //generator - necessary to prevent crashes, even if you do not use numbered sectors
 //also accepts just doing generator: AsteroidGenerator
+localizedName: adennos
+solarSystem: alfirk
 //also these numbers are funny and i have no idea how they precisely work
 generator: {
   berylChance: 0.45
