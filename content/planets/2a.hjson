@@ -1,0 +1,6 @@
+radius: 0.2
+parent: alfirk
+lightParent: 2a
+orbitRadius: 9
+orbitOffset: 120
+accessible: false

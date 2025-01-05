@@ -3,6 +3,7 @@ parent: alfirk
 orbitRadius: 9
 accessible: false
 lightParent: alfirk
+solarSystem: alfirk
 mesh: {
   type: SunMesh 
   divisions: 7
