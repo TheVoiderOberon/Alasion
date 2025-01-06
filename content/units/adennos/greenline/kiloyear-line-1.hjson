@@ -39,8 +39,8 @@ weapons:[{
         pierce: false
         pierceBuilding: false
         sprite: mindustry-alasion-icicle-bullet
-        backColor: 000000
-        frontColor: 000000
+        backColor: b4f3ff
+        frontColor: ffffff
         speed: 5
         lifetime: 25
         width: 9
