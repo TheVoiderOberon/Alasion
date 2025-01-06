@@ -1,0 +1,46 @@
+type: tank
+name: "Kiloyear"
+description: "Meet the first of the units in a series of lines known as the Greenline Elite Units. This one uses the power of frost to freeze enemies into oblivion."
+commandLimit: 8
+health: 450
+speed: 0.6
+flying: false
+drag: 0.3
+accel: 0.15
+range: 100
+hitSize: 8
+targetGround: true
+targetAir: true 
+armor: 3
+rotateSpeed: 5
+weapons:[{
+    name: icicle-cannon
+    reload: 9
+    x: 5
+    y: 0
+    shootY: 2
+    shootCone: 30
+    inaccuracy: 1
+    shootSound: pew
+    rotate: false
+    recoil: 1.5
+    top: true
+    ejectEffect: none
+    bullet:{
+        type: BasicBulletType
+        damage: 5
+        splashDamage: 12
+        splashDamageRadius: 5
+        pierceCap: 1
+        pierce: false
+        pierceBuilding: false
+        sprite: icicle
+        backColor: f9c27aff
+        frontColor: fff8e8ff
+        speed: 5
+        lifetime: 25
+        width: 9
+        height: 9
+    }
+}
+]
