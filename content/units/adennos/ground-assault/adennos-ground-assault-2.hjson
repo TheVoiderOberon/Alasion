@@ -13,7 +13,7 @@ mechFrontSway: 0.7
 mechSideSway: 1
 targetGround: true
 targetAir: true 
-armor: 3
+armor: 8
 rotateSpeed: 4
 weapons:[{
     name: bullet-weapon

@@ -13,7 +13,7 @@ mechFrontSway: 1.1
 mechSideSway: 1.2
 targetGround: true
 targetAir: true 
-armor: 6
+armor: 13
 rotateSpeed: 3.5
 weapons:[{
     name: slug-weapon

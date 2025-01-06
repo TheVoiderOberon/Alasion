@@ -3,8 +3,8 @@ name: Float
 description: Sacrifices speed for survivability.
 speed: 0.75
 hitSize: 12
-health: 360
-armor: 3
+health: 600
+armor: 6
 rotateSpeed: 5
 buildSpeed: 0.3
 commandLimit: 8

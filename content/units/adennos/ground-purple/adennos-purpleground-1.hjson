@@ -3,7 +3,7 @@ name: Hover
 description: Very fast ground unit that can walk over walls.
 speed: 0.9
 hitSize: 9
-health: 150
+health: 260
 armor: 1
 rotateSpeed: 7
 buildSpeed: 0.25

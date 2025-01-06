@@ -12,7 +12,7 @@ mechFrontSway: 1.8
 mechSideSway: 2.0
 targetGround: true
 targetAir: true 
-armor: 9
+armor: 20
 rotateSpeed: 2.7
 weapons:[{
     name: shell-lasergun
