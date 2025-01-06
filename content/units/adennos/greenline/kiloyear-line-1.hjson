@@ -36,8 +36,8 @@ weapons:[{
         pierce: false
         pierceBuilding: false
         sprite: icicle-bullet
-        backColor: b4f3ff
-        frontColor: ffffff
+        backColor: 000000
+        frontColor: 000000
         speed: 5
         lifetime: 25
         width: 9
