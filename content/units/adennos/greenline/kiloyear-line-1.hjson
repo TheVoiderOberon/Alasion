@@ -9,6 +9,10 @@ drag: 0.3
 accel: 0.15
 range: 100
 hitSize: 8
+immunities: [
+  freezing,
+  mindustry-alasion-deepfreeze
+]
 targetGround: true
 targetAir: true 
 armor: 3
@@ -27,7 +31,7 @@ weapons:[{
     top: true
     ejectEffect: none
     bullet:{
-        name: icicle-bullet
+        name: mindustry-alasion-icicle-bullet
         type: BasicBulletType
         damage: 5
         splashDamage: 12
