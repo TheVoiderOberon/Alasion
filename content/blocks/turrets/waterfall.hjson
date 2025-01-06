@@ -20,7 +20,6 @@ loopSoundVolume: 1.5
 shoot.shots: 3
 spread: 30
 chargeTime: 80
-consumePower: 20
 chargeBeginEffect: {
   type: MultiEffect
   lifetime: 80
@@ -64,14 +63,13 @@ shootType: {
 }
 consumes: {
   coolant: {
-    amount: 1
+    amount: 3
   }
-  items: {
-      items: [
-        titanium/100
-        ice-item/100
-      ]
-    }
+  power: 20
+}
+shoot: {
+  shots: 3
+  spacing: 5
 }
 itemCapacity: 100
 coolantMultiplier: 0.5
