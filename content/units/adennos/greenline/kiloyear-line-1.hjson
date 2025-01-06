@@ -27,6 +27,7 @@ weapons:[{
     top: true
     ejectEffect: none
     bullet:{
+        name: icicle-bullet
         type: BasicBulletType
         damage: 5
         splashDamage: 12
