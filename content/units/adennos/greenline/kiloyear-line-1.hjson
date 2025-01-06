@@ -31,7 +31,6 @@ weapons:[{
     top: true
     ejectEffect: none
     bullet:{
-        name: mindustry-alasion-icicle-bullet
         type: BasicBulletType
         damage: 5
         splashDamage: 12
@@ -39,7 +38,7 @@ weapons:[{
         pierceCap: 1
         pierce: false
         pierceBuilding: false
-        sprite: icicle-bullet
+        sprite: mindustry-alasion-icicle-bullet
         backColor: 000000
         frontColor: 000000
         speed: 5
