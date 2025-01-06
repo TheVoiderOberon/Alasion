@@ -5,7 +5,7 @@ commandLimit: 8
 health: 450
 speed: 0.6
 flying: false
-drag: 0.3
+drag: 0.05
 accel: 0.15
 range: 100
 hitSize: 8
@@ -43,8 +43,20 @@ weapons:[{
         frontColor: ffffff
         speed: 5
         lifetime: 25
-        width: 9
-        height: 9
+        width: 5
+        height: 12
+        fragBullets: 4
+            fragBullet: {
+            speed: 5
+             backColor: b4f3ff
+             frontColor: ffffff
+             sprite: mindustry-alasion-icicle-bullet
+             damage: 5
+        width: 3
+        speed: 4
+        lifetime: 20
+        height: 7
+            }
     }
 }
 ]
