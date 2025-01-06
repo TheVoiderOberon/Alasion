@@ -2,7 +2,7 @@ name: Blade
 description: Stabs units with a massive force. Has higher range than the previous tier.
 type: PowerTurret
 size: 3
-health: 600
+health: 1400
 range: 35
 reload: 10
 recoil: -23
@@ -12,7 +12,9 @@ shootSound: none
 shootEffect: none
 smokeEffect: none
 shake: 2
-powerUse: 6.54
+consumes: {
+  power: 5
+}
 targetAir: false
 rotateSpeed: 12
 shootType: {

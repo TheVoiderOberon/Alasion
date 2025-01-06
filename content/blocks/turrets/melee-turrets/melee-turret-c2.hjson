@@ -12,7 +12,9 @@ shootSound: shootBig
 shootEffect: none
 smokeEffect: none
 shake: 0
-powerUse: 3.2
+consumes: {
+  power: 8
+}
 shootType: {
             type: RailBulletType
             damage: 200

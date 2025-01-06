@@ -12,6 +12,10 @@ drag: 0.1
 range: 160
 accel: 0.1
 engineOffset: 6
+immunities: [
+  freezing,
+  mindustry-alasion-deepfreeze
+]
 engineSize: 5
 targetGround: true
 targetAir: true

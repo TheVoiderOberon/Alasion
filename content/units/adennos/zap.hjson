@@ -10,6 +10,10 @@ drag: 0.015
 accel: 0.018
 speed: 7
 rotateSpeed: 12
+immunities: [
+  freezing,
+  mindustry-alasion-deepfreeze
+]
 itemCapacity: 80
 health: 100
 armor: 0

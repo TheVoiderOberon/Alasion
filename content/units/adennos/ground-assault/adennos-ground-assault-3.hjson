@@ -8,6 +8,10 @@ flying: false
 drag: 0.3
 accel: 0.3
 range: 136
+immunities: [
+  freezing,
+  mindustry-alasion-deepfreeze
+]
 hitSize: 15
 mechFrontSway: 1.1
 mechSideSway: 1.2

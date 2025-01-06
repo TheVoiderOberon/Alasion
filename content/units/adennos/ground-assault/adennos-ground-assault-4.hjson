@@ -10,6 +10,10 @@ range: 136
 hitSize: 15
 mechFrontSway: 1.8
 mechSideSway: 2.0
+immunities: [
+  freezing,
+  mindustry-alasion-deepfreeze
+]
 targetGround: true
 targetAir: true 
 armor: 20

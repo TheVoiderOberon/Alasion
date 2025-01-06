@@ -19,6 +19,10 @@ legExtension: -2.5
 legLength: 10
 legPairOffset: 2.5
 legMoveSpace: 1.4
+immunities: [
+  freezing,
+  mindustry-alasion-deepfreeze
+]
 lightRadius: 130
 hovering: true
 shadowElevation: 0.8

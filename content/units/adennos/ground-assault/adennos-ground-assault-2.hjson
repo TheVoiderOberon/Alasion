@@ -9,6 +9,10 @@ drag: 0.3
 accel: 0.3
 range: 136
 hitSize: 11
+immunities: [
+  freezing,
+  mindustry-alasion-deepfreeze
+]
 mechFrontSway: 0.7
 mechSideSway: 1
 targetGround: true

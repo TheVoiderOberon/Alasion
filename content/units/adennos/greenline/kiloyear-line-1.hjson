@@ -19,7 +19,7 @@ armor: 3
 rotateSpeed: 5
 weapons:[{
     name: icicle-cannon
-    reload: 9
+    reload: 30
     x: 3
     y: 0
     shootY: 2
@@ -41,6 +41,7 @@ weapons:[{
         sprite: mindustry-alasion-icicle-bullet
         backColor: b4f3ff
         frontColor: ffffff
+        status: freezing
         speed: 5
         lifetime: 25
         width: 5
@@ -52,6 +53,7 @@ weapons:[{
              frontColor: ffffff
              sprite: mindustry-alasion-icicle-bullet
              damage: 5
+             status: freezing
         width: 3
         speed: 4
         lifetime: 20

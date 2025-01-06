@@ -11,7 +11,9 @@ range: 600
 alternate: true
 shoot.shots: 1
 shake: 15
-consumePower: 25
+consumes: {
+  power: 25
+}
 shootSound: laserbig
 chargeTime: 150
 chargeBeginEffect: {

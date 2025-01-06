@@ -12,7 +12,9 @@ shootSound: none
 shootEffect: none
 smokeEffect: none
 shake: 0
-powerUse: 3.72
+consumes: {
+  power: 3
+}
 targetAir: false
 rotateSpeed: 15
 shootType: {

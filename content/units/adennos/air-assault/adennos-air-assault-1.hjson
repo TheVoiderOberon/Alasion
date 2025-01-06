@@ -7,6 +7,10 @@ commandLimit: 8
 lowAltitude: false
 circleEnemy: true
 hitSize: 6
+immunities: [
+  freezing,
+  mindustry-alasion-deepfreeze
+]
 speed: 3
 drag: 0.08
 range: 160

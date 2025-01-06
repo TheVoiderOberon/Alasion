@@ -8,7 +8,9 @@ recoil: 3
 size: 2
 range: 300
 shoot.shots: 1
-consumePower: 14
+consumes: {
+  power: 14
+}
 shootType: {
            type: BasicBulletType
            damage: 60
