@@ -16,7 +16,7 @@ Events.on(ContentInitEvent, () => {
     let ch = Fonts.getUnicode(target);
 
     let size = Mathf.round(Fonts.def.getData().lineHeight / Fonts.def.getData().scaleY);
-    let tex = Core.atlas.find("mindustry-alasion-frost");
+    let tex = Core.atlas.find("mindustry-alasion-team-frost");
     let out = Scaling.fit.apply(tex.width, tex.height, size, size);
 
     for (let font of fonts) {
@@ -82,7 +82,7 @@ Events.on(ContentInitEvent, () => {
     let ch = Fonts.getUnicode(target);
 
     let size = Mathf.round(Fonts.def.getData().lineHeight / Fonts.def.getData().scaleY);
-    let tex = Core.atlas.find("mindustry-alasion-frost");
+    let tex = Core.atlas.find("mindustry-alasion-team-nebulon");
     let out = Scaling.fit.apply(tex.width, tex.height, size, size);
 
     for (let font of fonts) {
@@ -130,4 +130,70 @@ Events.on(ContentInitEvent, () => {
 
     Nebulon.hasPalette = true;
     Nebulon.emoji = Fonts.getUnicodeStr(target);
+});
+const baseColor3 = Color.valueOf("27661d");
+let palette3 = [
+    Color.valueOf("4b9e3f"),
+    baseColor3,
+    Color.valueOf("153d0f")
+];
+let palettei3 = [
+    Color.valueOf("4b9e3f").rgba(),
+    baseColor3.rgba(),
+    Color.valueOf("153d0f").rgba()
+];
+Events.on(ContentInitEvent, () => {
+
+    let fonts = [Fonts.def, Fonts.outline];
+    let ch = Fonts.getUnicode(target);
+
+    let size = Mathf.round(Fonts.def.getData().lineHeight / Fonts.def.getData().scaleY);
+    let tex = Core.atlas.find("mindustry-alasion-team-greenline");
+    let out = Scaling.fit.apply(tex.width, tex.height, size, size);
+
+    for (let font of fonts) {
+        let list = Reflect.get(Font, font, "regions");
+        list.add(tex);
+        Reflect.set(Font, font, "regions", list);
+
+        let glyph = font.getData().getGlyph(ch);
+        glyph.page = 1;
+
+        glyph.id = ch;
+        glyph.srcX = glyph.srcY = 0;
+        //    glyph.width = out.x;
+        //    glyph.height = out.y;
+        glyph.width = 62
+        glyph.height = 62
+        glyph.u = tex.u;
+        glyph.v = tex.v2;
+        glyph.u2 = tex.u2;
+        glyph.v2 = tex.v;
+        glyph.xoffset = 0;
+        glyph.yoffset = -size;
+        glyph.xadvance = size;
+        glyph.kerning = null;
+        glyph.fixedWidth = true;
+
+        //font.getData().setGlyphRegion(glyph, tex1);
+    }
+
+    const Greenline = Team.get(8);
+    Greenline.name = "Greenline";
+    //Dread.color.set(Color.valueOf("87ceeb"));
+    Reflect.set(Team, Greenline, "color", baseColor2);
+
+    let newPal = Reflect.get(Team, Greenline, "palette");
+    newPal[0] = palette3[0];
+    newPal[1] = palette3[1];
+    newPal[2] = palette3[2];
+    Reflect.set(Team, Greenline, "palette", newPal);
+    let newI = Reflect.get(Team, Greenline, "palettei");
+    newI[0] = palettei3[0];
+    newI[1] = palettei3[1];
+    newI[2] = palettei3[2];
+    Reflect.set(Team, Greenline, "palettei", newI);
+
+    Greenline.hasPalette = true;
+    Greenline.emoji = Fonts.getUnicodeStr(target);
 });
