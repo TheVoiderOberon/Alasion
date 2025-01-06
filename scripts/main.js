@@ -181,7 +181,7 @@ Events.on(ContentInitEvent, () => {
     const Greenline = Team.get(8);
     Greenline.name = "Greenline";
     //Dread.color.set(Color.valueOf("87ceeb"));
-    Reflect.set(Team, Greenline, "color", baseColor2);
+    Reflect.set(Team, Greenline, "color", baseColor3);
 
     let newPal = Reflect.get(Team, Greenline, "palette");
     newPal[0] = palette3[0];
