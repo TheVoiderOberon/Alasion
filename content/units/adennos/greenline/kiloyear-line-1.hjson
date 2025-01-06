@@ -16,7 +16,7 @@ rotateSpeed: 5
 weapons:[{
     name: icicle-cannon
     reload: 9
-    x: 5
+    x: 3
     y: 0
     shootY: 2
     shootCone: 30
@@ -30,13 +30,13 @@ weapons:[{
         type: BasicBulletType
         damage: 5
         splashDamage: 12
-        splashDamageRadius: 5
+        splashDamageRadius: 16
         pierceCap: 1
         pierce: false
         pierceBuilding: false
-        sprite: icicle
-        backColor: f9c27aff
-        frontColor: fff8e8ff
+        sprite: icicle-bullet
+        backColor: b4f3ff
+        frontColor: ffffff
         speed: 5
         lifetime: 25
         width: 9
