@@ -9,7 +9,7 @@ consumes: {
 power: 3
 }
 requirements: [
-  lodestone/50
+  magnetite/50
   azurite/40
   silicon/50
 ]
