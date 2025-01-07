@@ -1,0 +1,9 @@
+name: Plastic
+description: "Heat insulating resource that allows for unit sustenance."
+hardness: 2
+cost: 1.5
+color: 636568
+research: {
+    parent: azurite
+}
+details: "Units would freeze quickly if it wasn't for the strange properties given to resources coming from inside the planet, such as the oil deep inside the ice."

@@ -1,0 +1,5 @@
+name: Addenos Ice
+type: Floor
+liquidDrop: water
+playerUnmineable: true
+variants: 4

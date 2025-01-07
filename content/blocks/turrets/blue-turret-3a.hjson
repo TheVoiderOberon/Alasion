@@ -10,7 +10,10 @@ inaccuracy: 3
 size: 3
 range: 320
 alternate: true
-shoot.shots: 2
+shoot: {
+shots: 2
+shotDelay: 8
+}
 spread: 5
 shake: 4
 shootCone: 18

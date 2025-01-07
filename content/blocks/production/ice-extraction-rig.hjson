@@ -1,0 +1,16 @@
+type: Pump
+name: "Ice Extraction Rig"
+description: "Extracts liquid from the ice, may sometimes yield oil if placed in certain spots."
+size: 3
+pumpAmount: 0.09
+placeableLiquid: false
+liquidCapacity: 100
+consumes: {
+power: 3
+}
+requirements: [
+  lodestone/50
+  azurite/40
+  silicon/50
+]
+category: liquid

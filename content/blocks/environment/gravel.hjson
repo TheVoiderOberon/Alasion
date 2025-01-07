@@ -1,4 +1,4 @@
-name: gravel
+name: Gravel
 type: Floor
 itemDrop: gravel
 playerUnmineable: true

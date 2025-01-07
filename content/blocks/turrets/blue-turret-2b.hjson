@@ -8,8 +8,10 @@ recoil: 1.5
 inaccuracy: 15
 size: 2
 range: 280
-shoot.shots: 26
-burstSpacing: 3
+shoot: {
+shots: 26
+shotDelay: 2
+}
 consumes: {
   power: 10
 }
