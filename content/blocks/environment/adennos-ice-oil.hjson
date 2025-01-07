@@ -2,4 +2,4 @@ name: Addenos Ice
 type: Floor
 liquidDrop: oil
 playerUnmineable: true
-variants: 4
+variants: 3
