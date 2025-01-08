@@ -1,5 +1,5 @@
 type: UnitFactory
-size: 2
+size: 3
 name: Glass Cannon Naval Factory
 description: Specialized to produce units of the Idai line.
 consumes: {
