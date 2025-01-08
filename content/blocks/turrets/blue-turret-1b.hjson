@@ -2,15 +2,15 @@ type: PowerTurret
 name: Fork
 description: Shoots a burst of bullets.
 health: 80
-reload: 40
+reload: 30
 rotateSpeed: 10
 recoil: 0.8
 inaccuracy: 12
 size: 1
 range: 180
 shoot: {
-  shots: 4
-  shootSpread: 2
+  shots: 3
+  shotDelay: 4
 }
 consumes: {
   power: 5

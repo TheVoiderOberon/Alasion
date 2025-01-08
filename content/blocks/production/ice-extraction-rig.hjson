@@ -13,4 +13,14 @@ requirements: [
   azurite/40
   silicon/50
 ]
+research: {
+   parent: ore-extractor
+  planet: adennos
+   objectives: [
+      {
+         type: SectorLand
+         preset: shattered-glacier
+      }
+   ]
+}
 category: liquid
