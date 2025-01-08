@@ -1,0 +1,30 @@
+type: Reconstructor
+name: Cyclonic Multiplicative Reconstructor
+description: Takes in Winstons and reconstructs them into stronger units.
+size: 3
+constructTime: 1800
+consumes: {
+  power: 4
+    items: {
+      items: [
+        metaglass/150
+        titanium/80
+        silicon/120
+      ]
+    }
+}
+upgrades: [
+  [glass-cannon-2-winston, glass-cannon-3-mahina]
+]
+requirements: [
+  metaglass/400
+  silicon/300
+  copper/150
+  lead/200
+  titanium/180
+]
+category: units
+research: {
+  parent: cyclonic-multiplicative-reconstructor
+  objectives: [multiplicative-reconstructor]
+}

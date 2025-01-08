@@ -1,0 +1,26 @@
+type: UnitFactory
+size: 2
+name: Glass Cannon Naval Factory
+description: Specialized to produce units of the Idai line.
+consumes: {
+  power: 2
+}
+plans: [
+  {
+    unit: glass-cannon-1-idai
+    time: 1500
+    requirements: [
+      silicon/15
+      metaglass/20
+      copper/10
+    ]
+  }
+]
+requirements: [
+  metaglass/140
+  copper/60
+  lead/40
+  silicon/90
+]
+research: naval-factory
+category: units

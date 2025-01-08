@@ -1,0 +1,29 @@
+type: Reconstructor
+name: Cyclonic Additive Reconstructor
+description: Takes in Idais and reconstructs them into stronger units.
+size: 3
+constructTime: 1800
+consumes: {
+  power: 2.2
+    items: {
+      items: [
+        metaglass/80
+        graphite/30
+        silicon/40
+      ]
+    }
+}
+upgrades: [
+  [glass-cannon-1-idai, glass-cannon-2-winston]
+]
+requirements: [
+  metaglass/240
+  silicon/160
+  copper/100
+  lead/140
+]
+category: units
+research: {
+  parent: glass-cannon-naval
+  objectives: [additive-reconstructor]
+}
