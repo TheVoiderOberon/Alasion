@@ -4,7 +4,7 @@ type: PowerTurret
 size: 3
 health: 2560
 range: 200
-reload: 5
+reload: 50
 recoil: 3
 restitution: 0.05
 shoot.shots: 1
@@ -30,6 +30,7 @@ shootType: {
             length: 250
             pierce: true
             pierceBuilding: true
+            lifetime: 30
             incendAmount: 0.1
             incendChance: 0.22
             status: burning
