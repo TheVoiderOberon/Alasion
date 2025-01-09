@@ -11,7 +11,7 @@ shoot.shots: 3
 alternate: true
 shoot: {
 shots: 3
-type: shootAlternate
+type: ShootAlternate
 spread: 4
 }
 spacing: 4
