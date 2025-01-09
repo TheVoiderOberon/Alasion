@@ -19,6 +19,9 @@ smokeEffect: none
 shake: 1.5
 loopSoundVolume: 1.5
 consumePower: 14
+consumes: {
+power: 14
+}
 shootType: {
             type: ContinuousLaserBulletType
             drawSize: 180

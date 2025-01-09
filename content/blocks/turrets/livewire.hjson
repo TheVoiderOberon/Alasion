@@ -9,6 +9,11 @@ recoil: 3
 recoilTime: 0.15
 shoot.shots: 3
 alternate: true
+shoot: {
+shots: 3
+type: shootAlternate
+spread: 4
+}
 spacing: 4
 shootSound: shotgun
 shootEffect: lightningShoot
