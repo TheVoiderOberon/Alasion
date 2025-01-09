@@ -13,6 +13,8 @@ alternate: true
 shoot: {
 shots: 2
 shotDelay: 8
+type: ShootAlternate
+spread: 5
 }
 spread: 5
 shake: 4
