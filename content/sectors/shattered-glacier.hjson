@@ -8,5 +8,5 @@ description: "This sector contains large amounts of oil underneath the ice. Rese
 research: {
 	planet: adennos
    parent: snow-craters
-   objectives: [silicon-kiln, ice-extraction-rig]
+   objectives: [silicon-kiln]
 }
