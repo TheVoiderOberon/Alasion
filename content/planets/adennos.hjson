@@ -98,7 +98,7 @@ atmosphereRadIn: 0
 atmosphereRadOut: 0.6
 accessible: true
 orbitRadius: 180
-updateLighting: true
+updateLighting: false
 sectorSeed: 14513
 bloom: true
 visible: true
