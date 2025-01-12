@@ -6,6 +6,7 @@ difficulty: 3
 alwaysUnlocked: false
 description: "This sector contains large amounts of oil underneath the ice. Research the Ice Extraction Rig and acquire the oil to make plastics. Put the silicon obtained to use. Frost is ready to send an onslaught on this sector after some time. Be prepared."
 research: {
+	planet: adennos
    parent: snow-craters
    objectives: [silicon-kiln, ice-extraction-rig]
 }

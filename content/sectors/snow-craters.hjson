@@ -5,3 +5,7 @@ sector: 1
 difficulty: 2
 alwaysUnlocked: true
 description: "A relatively undefended area due to its low resource count. It is odd, however, that the craters here are still warm and are one of the few places in the planet with unfrozen ice. As of now. However, due to the lack of important resources housed within this sector, it is not an objective for the native faction residing. Use this as your starting point."
+research: {
+	planet: adennos
+   parent: iron-core
+}
