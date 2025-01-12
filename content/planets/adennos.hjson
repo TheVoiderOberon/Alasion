@@ -85,7 +85,7 @@ generator: {
   ferricChance: 0.1
   radius: 1.5
 }
-sectorSize: 1
+sectorSize: 2
 allowLaunchSchematics: true
 allowLaunchToNumbered: false
 allowLaunchLoadout: true
