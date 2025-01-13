@@ -2,7 +2,7 @@ name: Maglev Bridge
 type: DuctBridge
 health: 60
 speed: 2.5
-researchMultiplier: 0.1
+researchCostMultiplier: 0.1
 description: "Allows passing of items between blocks. Uses magnetic force for propulsion."
 category: distribution
 range: 4

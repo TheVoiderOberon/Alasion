@@ -5,6 +5,7 @@ health: 450
 requirements:[
     magnetite/6
 ]
+researchCostMultiplier: 0.4
 category: defense
 research: {
    parent: iron-core

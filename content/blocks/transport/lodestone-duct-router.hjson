@@ -4,7 +4,7 @@ health: 60
 speed: 2.5
 regionRotated1: 1
 description: Moves items around. Distributes items evenly throughout all sides not blocked by input.
-researchMultiplier: 0.1
+researchCostMultiplier: 0.1
 category: distribution
 requirements: [
   magnetite/4
