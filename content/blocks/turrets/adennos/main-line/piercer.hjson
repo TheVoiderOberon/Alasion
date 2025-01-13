@@ -6,6 +6,7 @@ health: 120
 range: 200
 reload: 32
 recoil: 1.5
+researchMultiplier: 0.1
 shoot: {
   shots: 1
 }

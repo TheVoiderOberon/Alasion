@@ -3,6 +3,7 @@ type: Junction
 health: 60
 speed: 2.5
 description: "Allows passing of 2 ducts between eachother."
+researchMultiplier: 0.1
 category: distribution
 range: 4
 requirements: [

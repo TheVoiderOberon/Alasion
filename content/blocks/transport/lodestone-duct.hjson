@@ -3,6 +3,7 @@ type: Duct
 health: 60
 speed: 2.5
 description: Moves items around.
+researchMultiplier: 0.1
 category: distribution
 requirements: [
   magnetite/1
