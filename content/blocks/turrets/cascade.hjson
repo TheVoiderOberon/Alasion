@@ -1,5 +1,5 @@
 name: Cascade
-description: Fires a beam at all enemies.
+description: "Fires a beam at all enemies."
 type: LaserTurret
 size: 3
 health: 1240
