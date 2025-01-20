@@ -16,7 +16,7 @@ consumes: {
 }
 shoot: {
     shots: 3
-    type: ShootBarrels
+    type: ShootBarrel
     barrels: [
     -5, 4, 0,
     0, 5, 0,
