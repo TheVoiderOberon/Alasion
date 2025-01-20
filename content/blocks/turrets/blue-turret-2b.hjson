@@ -13,7 +13,7 @@ shots: 26
 shotDelay: 2
 }
 consumes: {
-  power: 10
+  power: 15
 }
 shootType: {
            type: BasicBulletType

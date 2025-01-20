@@ -20,7 +20,7 @@ spread: 5
 shake: 4
 shootCone: 18
 consumes: {
-  power: 14
+  power: 25
 }
 shootSound: shootBig
 shootType: {

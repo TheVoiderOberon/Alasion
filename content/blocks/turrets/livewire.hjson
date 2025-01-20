@@ -1,18 +1,28 @@
 name: Livewire
 description: Shoots separate shotgun blasts out of its 3 cannons, dealing area damage. More effective and accurate than Fuse.
 type: ItemTurret
-size: 4
-health: 2880
+size: 5
+health: 4000
 range: 120
-reload: 10
-recoil: 3
+reload: 9
+recoil: 6
 recoilTime: 0.15
 shoot.shots: 3
 alternate: true
+consumes: {
+    liquid: {
+        liquid: cryofluid
+        amount: 2
+    }
+}
 shoot: {
-shots: 3
-type: ShootAlternate
-spread: 4
+    shots: 3
+    type: ShootBarrels
+    barrels: [
+    2, 4, 0
+    0, 5, 0
+    -2, 4, 0
+    ]
 }
 spacing: 4
 shootSound: shotgun
@@ -27,7 +37,7 @@ ammoTypes: {
       splashDamage: 33
       splashDamageRadius: 30
       width: 20
-      ammoMultiplier: 6
+      ammoMultiplier: 1
       reloadMultiplier: 1.4
       fromColor: 8aa3f4
       toColor: 50599b
@@ -40,7 +50,7 @@ ammoTypes: {
       splashDamage: 65
       splashDamageRadius: 48
       width: 24
-      ammoMultiplier: 6
+      ammoMultiplier: 1
       reloadMultiplier: 1
       length: 120
       serrations: 14
@@ -54,9 +64,8 @@ research: {
     objectives: [meltdown, cyclone, ripple]
 }
 requirements: [
-  copper/400
-  graphite/350
-  thorium/200
-  silicon/500
-  titanium/375
+  graphite/1000
+  thorium/650
+  titanium/600
+  surge-alloy/250
 ]

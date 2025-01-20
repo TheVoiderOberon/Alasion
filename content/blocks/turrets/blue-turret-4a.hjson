@@ -12,7 +12,10 @@ alternate: true
 shoot.shots: 1
 shake: 15
 consumes: {
-  power: 25
+  power: 50
+  coolant: {
+    amount: 2
+  }
 }
 shootSound: laserbig
 chargeTime: 150
