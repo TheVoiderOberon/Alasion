@@ -36,6 +36,7 @@ shootType: {
             incendAmount: 0.1
             incendChance: 0.22
             status: burning
+            buildingDamageMultiplier: 0.25
             statusDuration: 500
             fragBullets: 3
             fragCone: 50
@@ -44,6 +45,7 @@ shootType: {
              backColor: 6974c4
              frontColor: c1d0ff
              homingPower: 0.05
+             buildingDamageMultiplier: 0.25
              homingRange: 100
              damage: 8
              splashDamage: 8

@@ -17,6 +17,7 @@ ammoTypes: {
       type: BasicBulletType
       damage: 14
       width: 9
+      buildingDamageMultiplier: 0.15
       lifetime: 90
       speed: 5
       ammoMultiplier: 2

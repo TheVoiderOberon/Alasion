@@ -24,6 +24,7 @@ shootType: {
            width: 10
            height: 14
            lifetime: 60
+           buildingDamageMultiplier: 0.25
            weaveScale: 3
            weaveMag: 0.5
            homingPower: 0.1

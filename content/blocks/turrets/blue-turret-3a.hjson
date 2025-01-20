@@ -31,6 +31,7 @@ shootType: {
            pierceCap: 5
            width: 12
            height: 20
+           buildingDamageMultiplier: 0.25
            lifetime: 40
            weaveScale: 2
            weaveMag: 0.5

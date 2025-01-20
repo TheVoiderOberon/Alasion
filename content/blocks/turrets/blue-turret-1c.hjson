@@ -23,6 +23,7 @@ shootType: {
            homingRange: 80
            speed: 6
            despawnEffect: hitLaserBlast
+           buildingDamageMultiplier: 0.15
            hitEffect: hitLaserBlast
            backColor: 808eff
            frontColor: 808eff

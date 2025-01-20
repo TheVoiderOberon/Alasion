@@ -21,6 +21,7 @@ shootType: {
            damage: 50
            pierce: true
            pierceBuilding: true
+           buildingDamageMultiplier: 0.15
            pierceCap: 5
            width: 9
            sideWidth: 2

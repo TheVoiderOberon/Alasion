@@ -6,7 +6,6 @@ health: 4000
 range: 120
 reload: 9
 recoil: 6
-recoilTime: 0.15
 shoot.shots: 3
 alternate: true
 consumes: {
@@ -19,9 +18,9 @@ shoot: {
     shots: 3
     type: ShootBarrels
     barrels: [
-    2, 4, 0
+    0, 4, 2
     0, 5, 0
-    -2, 4, 0
+    0, 4, -2
     ]
 }
 spacing: 4
@@ -36,6 +35,7 @@ ammoTypes: {
       damage: 55
       splashDamage: 33
       splashDamageRadius: 30
+      buildingDamageMultiplier: 0.25
       width: 20
       ammoMultiplier: 1
       reloadMultiplier: 1.4
@@ -50,6 +50,7 @@ ammoTypes: {
       splashDamage: 65
       splashDamageRadius: 48
       width: 24
+      buildingDamageMultiplier: 0.25
       ammoMultiplier: 1
       reloadMultiplier: 1
       length: 120
@@ -64,8 +65,8 @@ research: {
     objectives: [meltdown, cyclone, ripple]
 }
 requirements: [
-  graphite/1000
-  thorium/650
-  titanium/600
-  surge-alloy/250
+  graphite/1600
+  thorium/950
+  titanium/1300
+  surge-alloy/350
 ]
