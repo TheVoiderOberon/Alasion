@@ -6,7 +6,12 @@ health: 2560
 range: 200
 reload: 70
 recoil: 0.018
-shoot.shots: 1
+shoot: {
+  shots: 3
+  type: ShootSpread
+  shootCone: 60
+}
+shootCone: 60
 shootSound: laserbig
 loopSound: beam
 shootDuration: 150
@@ -62,16 +67,12 @@ shootType: {
             statusDuration: 500
 }
 consumes: {
-  coolant: {
-    amount: 3
+  liquid: {
+    liquid: cryofluid
+    amount: 4.5
   }
-  power: 20
+  power: 35
 }
-shoot: {
-  shots: 3
-  spacing: 5
-}
-itemCapacity: 100
 coolantMultiplier: 0.5
 liquidCapacity: 300
 category: turret

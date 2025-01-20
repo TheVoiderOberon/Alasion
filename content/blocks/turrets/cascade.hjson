@@ -1,5 +1,5 @@
 name: Cascade
-description: Fires a beam at all enemies.
+description: "Fires a beam at all enemies."
 type: LaserTurret
 size: 3
 health: 1240
@@ -11,6 +11,7 @@ shots: 1
 shootSound: laserbig
 loopSound: beam
 shootDuration: 100
+shootLength: 8
 shootY: 8
 firingMoveFract: 0.5
 shootCone: 30
@@ -21,6 +22,9 @@ loopSoundVolume: 1.5
 consumePower: 14
 consumes: {
 power: 14
+  coolant: {
+    amount: 2.25
+  }
 }
 shootType: {
             type: ContinuousLaserBulletType
