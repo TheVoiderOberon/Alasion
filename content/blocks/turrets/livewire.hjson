@@ -37,7 +37,7 @@ ammoTypes: {
       splashDamageRadius: 30
       buildingDamageMultiplier: 0.25
       width: 20
-      ammoMultiplier: 1
+      ammoMultiplier: 0.33f
       reloadMultiplier: 1.4
       fromColor: 8aa3f4
       toColor: 50599b
@@ -51,7 +51,7 @@ ammoTypes: {
       splashDamageRadius: 48
       width: 24
       buildingDamageMultiplier: 0.25
-      ammoMultiplier: 1
+      ammoMultiplier: 0.33f
       reloadMultiplier: 1
       length: 120
       serrations: 14
