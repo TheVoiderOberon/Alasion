@@ -130,6 +130,7 @@ shootType: {
            hitShake: 15
            shrinkY: 0
 }
+coolantMultiplier: 0.15
 requirements: [
   graphite/800
   lead/1000

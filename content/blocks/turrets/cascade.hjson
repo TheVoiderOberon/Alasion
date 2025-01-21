@@ -41,7 +41,7 @@ shootType: {
             statusDuration: 400
 }
 consumesCoolant: 0.5
-coolantMultiplier: 0.5
+coolantMultiplier: 0.15
 liquidCapacity: 250
 category: turret
 research: {

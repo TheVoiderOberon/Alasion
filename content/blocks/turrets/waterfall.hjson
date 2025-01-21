@@ -73,7 +73,7 @@ consumes: {
   }
   power: 35
 }
-coolantMultiplier: 0.5
+coolantMultiplier: 0
 liquidCapacity: 300
 category: turret
 research: {
